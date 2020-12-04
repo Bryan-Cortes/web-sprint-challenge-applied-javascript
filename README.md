@@ -27,14 +27,19 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is the DOM?
+<!-- The DOM is a programming API for HTML (Web API) -->
 
 2. What is an event?
+<!--  An event is any action taken on the browser like a click on an element or a mouseover -->
 
 3. What is an event listener?
+<!-- An event listener is a program that is set to listen and run from an event like a click or mouseover and once the event is noticed it actiavtes some other code in the program -->
 
 4. Why would we convert a NodeList into an Array?
+<!-- NodeList is like an array (it's not and it's specific to the DOM) but it doesnt behave like one. If converted to an array using Array.from() you can use array methods on it like a map and filter. The only method avaible to a nodeList without conversion is a .forEach().-->
 
 5. What is a component?
+<!-- Components are independent and reusable bits of code that adds functionality (They serve the same purpose as JavaScript functions, but work in isolation and returns HTML ) In this project we are going to be using componets to create NodeList and manipulate js to create a website. -->
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
@@ -84,6 +89,6 @@ After finishing your required elements, you can push your work further. These go
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` branch (student's  Repo). **Please don't merge your own pull request**
+- [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` branch (student's Repo). **Please don't merge your own pull request**
 - [ ] Add your team lead as a reviewer on the pull-request
 - [ ] Your team lead will count the project as complete after receiving your pull-request
