@@ -40,4 +40,4 @@ function Header() {
   return document.querySelector('.header-container').appendChild(header);
 }
 
-console.log(Header())
+Header();
